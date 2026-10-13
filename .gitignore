@@ -1,0 +1,30 @@
+
+# Node.js
+node_modules/
+npm-debug.log*
+frontend/node_modules/
+
+# Python
+venv/
+env/
+__pycache__/
+*.py[cod]
+backend/venv/
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
